@@ -71,6 +71,24 @@ h6 {
     }
 }
 
+/* Track */
+::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 0px;
+}
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: rgba(1, 4, 136, 0.9);
+  border-radius: 1px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+ 
+  background: rgba(64, 67, 201, 0.9);
+}
 
 /*--------------------------------------------------------------
 # Back to top button
